@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "recipe-app-api"
+version = "0.1.0"
+description = ""
+authors = ["Indiana3714 <41246263+Indiana3714@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "recipe_app_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = ">=3.2.4,<3.3"
+djangorestframework = ">=3.12.4,<3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
